@@ -56,7 +56,7 @@ onMounted(async () => {
   }
 
   if (!user.value.confirmed_at) {
-    alert('Supabase has sent an email to ${user.value.email} please click the link in this email to confirm your account')
+    alert('Supabase has sent an email to please click the link in this email to confirm your account')
   }
 })
 

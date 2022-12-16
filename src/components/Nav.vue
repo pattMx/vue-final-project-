@@ -69,39 +69,8 @@ const toggle = () => {
         </ul>
       </div>
   </nav>
-    <!-- <div class="dropdown" id="dropdown">
-      <router-link to="/" class="router-link">
-          Task Manager
-        </router-link>
-        <router-link to="/" class="router-link">
-          Your Account
-        </router-link>
-        <p v-if="useUserStore().user">Welcome {{useUserStore().user.email}}</p>
-        <a id="signout" class="button-red" @click="signOut">Sign Out</a>
-    </div> -->
-
-    <!-- <div class="navsignout">
-      <ul class="navwelvome">
-        <li class="welcomenavbar">
-          <p v-if="useUserStore().user">Welcome {{useUserStore().user.email}}</p>
-        </li>
-        <li class="welcomenavbar">
-          <a id="signout" class="button-red" @click="signOut">Sign Out</a>
-        </li>
-      </ul>
-    </div> -->
-    
-  
 </template>
 
 <style scoped>
-/* nav {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
 
-img{
-  size: 1rem;
-} */
 </style>

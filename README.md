@@ -2,10 +2,6 @@
 
 Proyecto final del bootcamp Front End Development de Ironhack
 
-[Click para acceder a la web](vue-final-project-ahb5-gro8r146f-pattmx.vercel.app)
-
-Autor: Patricia Sánchez
-
 ## Description
 
 Es una aplicacion creada con Vue.js que permite a usuarios crear una cuenta, añadir tareas a completar, editarlas, marcarlas como completadas y finalmente borrarlas.
