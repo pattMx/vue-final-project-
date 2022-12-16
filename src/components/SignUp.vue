@@ -38,7 +38,6 @@ async function signUp() {
     <form class="flex-column" @submit.prevent="signUp">
       <h3 class="mb-10">Sign Up</h3>
       <div class="w-100 flex-column">
-        <!-- <label for="email">Email</label><br /> -->
         <input
           v-model="email"
           class="form-input"
@@ -47,7 +46,6 @@ async function signUp() {
           required
           placeholder="Email"
         /><br />
-        <!-- <label for="password">Password</label><br /> -->
         <input
           v-model="password"
           type="password"
@@ -56,7 +54,6 @@ async function signUp() {
           required
           placeholder="Password"
         /><br />
-        <!-- <label for="confirmPassword">Repeat Password</label><br /> -->
         <input
           v-model="confirmPassword"
           type="password"

@@ -35,7 +35,7 @@ async function createNewTask() {
       <form
       class="new-task"
       @submit.prevent="createNewTask">
-        <!-- <div class="form-input"> -->
+        
           <input
           v-model="title"
           type="text"
@@ -44,7 +44,7 @@ async function createNewTask() {
           minlength="4"
           placeholder="New Task">
           <button class="button-dark">Add</button>
-        <!-- </div> -->
+        
         
       </form>      
     </div>

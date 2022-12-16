@@ -31,7 +31,7 @@ async function signIn() {
     <form class="register flex-column" @submit.prevent="signIn">
       <h3 class="mb-10">Sign In</h3>
       <div class="w-100 flex-column">
-        <!-- <label for="email">Email</label><br /> -->
+        
         <input
           v-model="email"
           class="form-input"
@@ -40,7 +40,6 @@ async function signIn() {
           required
           placeholder="Email"
         /><br />
-        <!-- <label for="password">Password</label><br /> -->
         <input
           v-model="password"
           class="form-input"

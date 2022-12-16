@@ -69,9 +69,7 @@ onMounted(async () => {
     class="tasklist"
   >
     <header class="tasklist-header">
-      <!-- <h3 class="header-title">
-        Welcome {{ user.email }}
-      </h3> -->
+      
       <div>
         <NewTask />
       </div>
@@ -113,6 +111,7 @@ onMounted(async () => {
                 class="edit-input"
               >
               <button
+              class="updatebotton"
                 name="update"
                 @click="updateTask(task.id)"
               >
